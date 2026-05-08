@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+scipy
+pennylane
+pennylane-lightning
+searoute

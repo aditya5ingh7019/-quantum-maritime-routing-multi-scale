@@ -1,0 +1,4 @@
+MAX_QUBITS,Mean_Cost_km,Std_Dev_km,Approx_Ratio_vs_LKH3,Q_Influence_%
+4,89920.2,13216.6,1.684,26.7
+6,95959.8,20820.3,1.797,40.0
+8,101585.4,2796.6,1.903,53.3

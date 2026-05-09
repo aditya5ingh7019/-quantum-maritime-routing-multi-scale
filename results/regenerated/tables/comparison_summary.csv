@@ -1,0 +1,6 @@
+Metric,Baseline,Optimized,Reduction_%
+Total Grid (kWh),1807.35,1843.01,-2.0
+Grid Cost (₹),16882.96,16032.43,5.0
+Emission Penalty (₹),11770.07,11679.94,0.8
+Peak-Hour Grid (hrs 18-23),621.02,441.02,29.0
+Combined Total (₹),28653.03,27712.37,3.3

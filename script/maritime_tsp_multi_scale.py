@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Maritime TSP — QAOA-Assisted Routing (Dual-Scale Study)
+Maritime TSP — QAOA-Assisted Routing (Multi-Scale Study)
 =======================================================
 
 Research code accompanying the paper:

@@ -1,0 +1,11 @@
+Regime_1,Regime_2,Test,t_statistic,p_value,Significant_at_0.05,Mean_Diff_km
+8-port,12-port,Independent t-test,-4.8703,0.000248,True,26811.3
+8-port,16-port,Independent t-test,-6.5028,1.4e-05,True,46896.7
+8-port,20-port,Independent t-test,-14.2425,0.0,True,74055.5
+12-port,16-port,Independent t-test,-2.2956,0.037661,True,20085.3
+12-port,20-port,Independent t-test,-6.5783,1.2e-05,True,47244.2
+16-port,20-port,Independent t-test,-3.1726,0.00678,True,27158.9
+8-port,LKH-3 (optimal),One-sample t-test,7.1209,0.00019,True,12088.0
+12-port,LKH-3 (optimal),One-sample t-test,6.0338,0.000524,True,31597.8
+16-port,LKH-3 (optimal),One-sample t-test,6.905,0.00023,True,48397.8
+20-port,LKH-3 (optimal),One-sample t-test,13.2022,3e-06,True,64884.6

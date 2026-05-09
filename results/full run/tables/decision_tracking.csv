@@ -1,0 +1,53 @@
+Regime,Step,Remaining_Ports,Decision_Type,Selected_Port,Quantum_Probability
+8-port,1,7,quantum,Port Klang,0.01556924021764235
+8-port,2,6,quantum,Jebel Ali,0.021458820717607494
+8-port,3,5,quantum,Colombo,0.04938367110676668
+8-port,4,4,quantum,Kochi,0.11001482332172148
+8-port,5,3,quantum,Singapore,0.22786760564121938
+8-port,6,2,quantum,Shanghai,0.28180826929833547
+8-port,7,1,quantum,Rotterdam,0.4999999999999999
+12-port,1,11,quantum,Shanghai,0.0010506319990114072
+12-port,2,10,quantum,Busan,0.0019157558905157342
+12-port,3,9,quantum,Jebel Ali,0.00951711224611784
+12-port,4,8,quantum,Yokohama,0.007159081155048614
+12-port,5,7,quantum,Singapore,0.01701000174435136
+12-port,6,6,quantum,Tuticorin,0.03463443421284085
+12-port,7,5,quantum,Rotterdam,0.05350612926144724
+12-port,8,4,quantum,Port Klang,0.11737202628889676
+12-port,9,3,quantum,Colombo,0.24714472963833048
+12-port,10,2,quantum,Port Hedland,0.39384665380832196
+12-port,11,1,quantum,Kochi,0.4999999999999998
+16-port,1,15,classical,Karachi,
+16-port,2,14,classical,Jebel Ali,
+16-port,3,13,classical,Kochi,
+16-port,4,12,classical,Colombo,
+16-port,5,11,classical,Port Klang,
+16-port,6,10,classical,Singapore,
+16-port,7,9,classical,Jakarta,
+16-port,8,8,quantum,Shanghai,0.010675331230789129
+16-port,9,7,quantum,Bangkok,0.013054938184019038
+16-port,10,6,quantum,Rotterdam,0.033837171137189884
+16-port,11,5,quantum,Yokohama,0.05339538085144521
+16-port,12,4,quantum,Busan,0.0765308882983485
+16-port,13,3,quantum,Hong Kong,0.30527286268493065
+16-port,14,2,quantum,Hamburg,0.2926945269881277
+16-port,15,1,quantum,Port Hedland,0.5000000000000001
+20-port,1,19,classical,Goa,
+20-port,2,18,classical,Kochi,
+20-port,3,17,classical,Tuticorin,
+20-port,4,16,classical,Colombo,
+20-port,5,15,classical,Chennai,
+20-port,6,14,classical,Visakhapatnam,
+20-port,7,13,classical,Kolkata,
+20-port,8,12,classical,Port Klang,
+20-port,9,11,classical,Singapore,
+20-port,10,10,classical,Port Hedland,
+20-port,11,9,classical,Sydney,
+20-port,12,8,quantum,Shanghai,0.00784306746151208
+20-port,13,7,quantum,Fujairah,0.018541577057294582
+20-port,14,6,quantum,Hamburg,0.06282012695744829
+20-port,15,5,quantum,Durban,0.04979720918300183
+20-port,16,4,quantum,Busan,0.08682810364525613
+20-port,17,3,quantum,Jebel Ali,0.2624841669629415
+20-port,18,2,quantum,Rotterdam,0.2500376585435589
+20-port,19,1,quantum,Yokohama,0.4999999999999998

@@ -1,0 +1,5 @@
+Regime,Best_Layers,Best_Alpha,Best_Cost_km,Best_Ratio_vs_LKH3,Improvement_vs_Default_%,Default_Layers,Default_Alpha,Default_Cost_km,Default_Ratio
+8-port,2,0.7,47312.8,1.105,11.7,3,0.5,53592.5,1.252
+12-port,2,0.3,76288.7,1.522,11.3,3,0.5,85961.6,1.715
+16-port,1,0.0,74041.7,1.387,29.6,3,0.5,105199.8,1.97
+20-port,1,0.7,90298.9,1.409,29.6,3,0.5,128296.7,2.003

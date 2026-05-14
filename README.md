@@ -73,6 +73,28 @@ We empirically show how **partial quantum participation (due to qubit limits)** 
 
 ---
 
+**Port dataset (30 ports):**
+- **Original 20:** Mumbai, Chennai, Kolkata, Kochi, Visakhapatnam, Goa, Tuticorin, Singapore, Colombo, Jebel Ali, Port Klang, Shanghai, Busan, Rotterdam, Fujairah, Port Hedland, Yokohama, Durban, Sydney, Hamburg
+- **New 10:** Cape Town, Lagos, Mombasa, Los Angeles, Houston, Santos, Antwerp, Piraeus, New York, Tokyo
+
+**Configuration:**
+- max_qubits: 20 | layers: 3 | steps: 100 | alpha: 0.5 | n_ports: 30
+- seeds: [42, 123, 456, 789] | Expected Φ_Q: ~66.7%
+
+**Key Results (30 ports, K=20):**
+
+| Metric | Value |
+|--------|-------|
+| Nearest Neighbour | 107,157 km |
+| HC 2-opt | 93,439 km |
+| Or-opt / 3-opt | 93,439 km |
+| QAOA-Greedy Mean | 251,684 ± 18,032 km |
+| Best seed (123) | 229,059 km |
+| Mean ρ vs Or-opt | 2.6936 |
+| Quantum Influence | 69.0% |
+
+---
+
 ## Figures
 
 **Important:** Not all figures are used from this main cell due to labelling issues, but they are regenerated using real values and saved JSON file.
@@ -85,6 +107,8 @@ We empirically show how **partial quantum participation (due to qubit limits)** 
 - `all_regimes_boxplot.png` - Used in the paper with fixed labels from the next cell titled: "Complete Figure and Table Regeneration Script" (maritime_tsp_multi_scale)
 - `ablation_12port.png` - Used in the paper with fixed labels from the last cell run title: "Paper Figures Generation Script for Maritime TSP with QAOA-Greedy
 Fixed version for all figures including noise plots" (maritime_tsp_multi_scale)
+
+---
 
 ## Central Finding
 

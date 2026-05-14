@@ -73,6 +73,19 @@ We empirically show how **partial quantum participation (due to qubit limits)** 
 
 ---
 
+## Figures
+
+**Important:** Not all figures are used from this main cell due to labelling issues, but they are regenerated using real values and saved JSON file.
+
+- `route_map_12port.png` - Used from the current cell main run (maritime_tsp_multi_scale)
+- `ablation_12port.png` - Used from the current cell main run (maritime_tsp_multi_scale)
+- `p_layer_study_8port` - Figure used in the paper from the third last cell titled: "P-LAYER STUDY" (maritime_tsp_multi_scale)
+- `coverage_quality_curve.png` - Used in the paper from last cell run title: "Paper Figures Generation Script for Maritime TSP with QAOA-Greedy with added 30 ports and 20 qubit side study from notebook `maritime_30port_20qubit_side_study` (maritime_tsp_multi_scale)
+- `noise_12port.png` - Used in the paper with fixed labels from the next cell Complete Figure and Table Regeneration Script (maritime_tsp_multi_scale)
+- `all_regimes_boxplot.png` - Used in the paper with fixed labels from the next cell titled: "Complete Figure and Table Regeneration Script" (maritime_tsp_multi_scale)
+- `ablation_12port.png` - Used in the paper with fixed labels from the last cell run title: "Paper Figures Generation Script for Maritime TSP with QAOA-Greedy
+Fixed version for all figures including noise plots" (maritime_tsp_multi_scale)
+
 ## Central Finding
 
 > **Higher quantum coverage → Better approximation ratios**

@@ -85,10 +85,10 @@ A side study was conducted to evaluate performance with increased qubit capacity
 
 **Execution log (4 seeds, ~6 min each, ~25 min total):**
 
-seed=42: 148,548 km | ratio=2.3186 | Q=16 C=3 | 7.8 min
-seed=123: 127,940 km | ratio=1.9970 | Q=16 C=3 | 5.9 min ← Best
-seed=456: 147,099 km | ratio=2.2960 | Q=16 C=3 | 6.2 min
-seed=789: 133,038 km | ratio=2.0765 | Q=16 C=3 | 5.9 min
+- seed=42: 148,548 km | ratio=2.3186 | Q=16 C=3 | 7.8 min
+- seed=123: 127,940 km | ratio=1.9970 | Q=16 C=3 | 5.9 min ← Best
+- seed=456: 147,099 km | ratio=2.2960 | Q=16 C=3 | 6.2 min
+- seed=789: 133,038 km | ratio=2.0765 | Q=16 C=3 | 5.9 min
 
 **Key Results (20 ports, K=16):**
 

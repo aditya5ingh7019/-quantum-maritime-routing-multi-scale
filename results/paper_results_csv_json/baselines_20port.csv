@@ -1,0 +1,4 @@
+Algorithm,Cost_km
+Nearest Neighbour,70494.28808503016
+Hill Climbing (2-opt),64067.371352810165
+LKH-3,64067.37135281017

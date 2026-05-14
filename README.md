@@ -73,6 +73,37 @@ We empirically show how **partial quantum participation (due to qubit limits)** 
 
 ---
 
+## Extended Studies
+
+### 20-Port Study with K=16 Qubits (Higher Quantum Capacity)
+
+A side study was conducted to evaluate performance with increased qubit capacity (16 qubits) on the 20-port network.
+
+**Configuration:**
+- max_qubits: 16 | layers: 3 | steps: 100 | alpha: 0.5 | n_ports: 20
+- seeds: [42, 123, 456, 789] | Quantum Influence: 100% (16/16 ports covered)
+
+**Execution log (4 seeds, ~6 min each, ~25 min total):**
+
+seed=42: 148,548 km | ratio=2.3186 | Q=16 C=3 | 7.8 min
+seed=123: 127,940 km | ratio=1.9970 | Q=16 C=3 | 5.9 min ← Best
+seed=456: 147,099 km | ratio=2.2960 | Q=16 C=3 | 6.2 min
+seed=789: 133,038 km | ratio=2.0765 | Q=16 C=3 | 5.9 min
+
+**Key Results (20 ports, K=16):**
+
+| Metric | Value |
+|--------|-------|
+| QAOA-Greedy Mean | 139,156 ± 8,868 km |
+| CV | 6.4% |
+| Best seed | 127,940 km |
+| Worst seed | 148,548 km |
+| Mean ρ vs LKH-3 | 2.1720 |
+| LKH-3 baseline | 64,067 km |
+| Quantum Influence | 100% |
+
+---
+
 **Port dataset (30 ports):**
 - **Original 20:** Mumbai, Chennai, Kolkata, Kochi, Visakhapatnam, Goa, Tuticorin, Singapore, Colombo, Jebel Ali, Port Klang, Shanghai, Busan, Rotterdam, Fujairah, Port Hedland, Yokohama, Durban, Sydney, Hamburg
 - **New 10:** Cape Town, Lagos, Mombasa, Los Angeles, Houston, Santos, Antwerp, Piraeus, New York, Tokyo

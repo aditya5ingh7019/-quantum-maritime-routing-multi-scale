@@ -22,10 +22,10 @@ We implement a **QAOA-assisted greedy TSP solver** using real maritime distances
 
 | Regime | Ports | MAX_QUBITS | Quantum Coverage |
 |--------|-------|------------|------------------|
-| **Full coverage (ideal)** | 8 | 8 | 100% |
+| **Full coverage** | 8 | 8 | 100% |
 | **Full coverage** | 12 | 12 | 100% |
-| **Partial coverage (NISQ)** | 16 | 8 | 53.3% |
-| **Partial coverage (NISQ)** | 20 | 8 | 42.1% |
+| **Partial coverage** | 16 | 8 | 53.3% |
+| **Partial coverage** | 20 | 8 | 42.1% |
 
 ---
 
